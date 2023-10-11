@@ -15,8 +15,14 @@ const PhraseRandom = ({setPhrase}) => {
     
   return (
     <div className='content_button'>
-    <button className='btn' onClick={getRandomPhrase}>See Other</button>
+      <section>
+      <button className='btn' onClick={getRandomPhrase}>See Other</button>
+      </section>
+    
     <section>
+      <section className='content-image'>
+        <img className="image-logo" src="images/logocookies.png" alt="logo empanadas" />
+      </section>
       <p>{getData()?.author}</p>
     </section>
     </div>
