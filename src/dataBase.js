@@ -70,7 +70,7 @@ const data=[
 
   const getData=()=>{
     
-    return data[getRandomNumber(data)]?.phrase
+    return data[getRandomNumber(data)]
 
 
     }

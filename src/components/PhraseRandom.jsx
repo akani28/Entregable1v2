@@ -7,15 +7,18 @@ const PhraseRandom = ({setPhrase}) => {
 
     const getRandomPhrase=()=>{
 
-        setPhrase(getData())
+        setPhrase(getData()?.phrase)
 
     }
     
 
     
   return (
-    <div>
-    <button onClick={getRandomPhrase}>See Other</button>
+    <div className='content_button'>
+    <button className='btn' onClick={getRandomPhrase}>See Other</button>
+    <section>
+      <p>{getData()?.author}</p>
+    </section>
     </div>
   )
 }

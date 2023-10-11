@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFF;
+    font-family: "Fredoka One";
+    text-shadow: 10px 10px 7px black;
+    
+}
+.content-phrase{
+    background-color: #FFF;
+    text-align: center;
+    margin: auto 0;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 110px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
+.content1{
+    background-image: url(/public/images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.content2{
+    background-image: url(/public/images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.content3{
+    background-image: url(/public/images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.content4{
+    background-image: url(/public/images/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.content_button{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
+    text-align: center;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
